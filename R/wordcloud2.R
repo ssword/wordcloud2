@@ -127,7 +127,7 @@ wordcloud2 <- function(data,
 
   # create a list that contains the settings
 
-  weightFactor = size * fontFactor / sqrt(max(dataOut$freq))
+  weightFactor = size * fontFactor / (sqrt(max(dataOut$freq))*10)
 
   settings <- list(
     word = dataOut$name,
