@@ -56,7 +56,7 @@ head(demoFreq)
 - `color`	
   - color of the text, keyword 'random-dark' and 'random-light' can be used. color vector is also supported in this param
 - `minSize`	
- - A character string of the subtitle
+  - A character string of the subtitle
 - `backgroundColor`	
   - Color of the background.
 - `gridSize`	

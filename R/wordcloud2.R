@@ -82,6 +82,7 @@ wordcloud2 <- function(data,
                        gridSize =  0,
                        fontFamily = 'Segoe UI',
                        fontWeight = 'bold',
+                       fontFacotr = 180,
                        color =  'random-dark',
                        backgroundColor = "white",
                        minRotation = -pi/4,
@@ -126,7 +127,7 @@ wordcloud2 <- function(data,
 
   # create a list that contains the settings
 
-  weightFactor = size * 180 / max(dataOut$freq)
+  weightFactor = size * fontFacotr / max(dataOut$freq)
 
   settings <- list(
     word = dataOut$name,
