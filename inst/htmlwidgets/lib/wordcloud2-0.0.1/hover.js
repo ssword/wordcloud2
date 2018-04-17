@@ -29,7 +29,7 @@ function cv_handleHover(item, dimension, evt) {
 
   document.getElementById("wcSpan").setAttribute(
     'data-l10n-args', JSON.stringify({ word: item[0], count: item[1] }));
-  document.getElementById("wcSpan").innerHTML =item[0]+":" + item[1];
+  document.getElementById("wcSpan").innerHTML =item[0]+": " + item[1];
 
 }
 
