@@ -32,6 +32,7 @@ HTMLWidgets.widget({
                         color: x.color,
                         minSize: x.minSize,
                         weightFactor: x.weightFactor,
+                        drawOutOfBound: false,
                         backgroundColor: x.backgroundColor,
                         gridSize: x.gridSize,
                         minRotation: x.minRotation,
